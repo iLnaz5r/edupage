@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPage</title>
+    <style>
+        *{
+            margin-top: 0;
+            padding: 0;
+            box-sizing: border-boxz;
+        }
+        body{
+            display: grid;
+            place-content: center;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgb(220, 214, 219);
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-between;
+            gap: 740px;
+            background-color: rgb(27, 161, 206);
+            width: 1370px;
+            height: 30px;
+            padding-top: 20px;
+            color: white;
+        }
+        .head-left{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+        .head-right{
+            display: flex;
+            flex-direction: row;
+            margin-right: 70px;
+            gap: 10px;
+        }
+        .para{
+            font-size: 10px;
+        }
+        .pre-main{
+            display: grid;
+            grid-template-columns: repeat(2,70px);
+            padding: 30px;
+            background-color: rgb(14, 29, 34);
+            color: white;
+            gap: 200px;
+        }
+        .pre-main_right{
+            display: grid;
+            grid-template-columns: repeat(1,300px);
+            grid-template-rows: repeat(3,80px);
+        }
+        .pre-main_schedule{
+            display: grid;
+            grid-template-columns: repeat(9,70px);
+            text-align: center;
+            gap: 45px;
+            font-size: 7px;
+            
+        }
+        .pre-main_schedule1{
+            background-color: rgb(35, 41, 43);
+            padding: 18px;
+            border-radius: 5px;
+            width: 76px;
+            height: 62px;
+        } 
+        .hw{
+            font-size: 14px;
+            width: 400px;
+            font-weight: 100;
+            color: rgb(112, 112, 112);
+            margin-top: 50px;
+        }
+        .main-left{
+            display: grid;
+            place-content: left;
+            margin-top: -230px;
+            border-radius: 4px;
+        }
+
+        .left-one{
+            display: grid;
+            grid-template-columns: repeat(2,50px);
+            background-color: rgb(255, 255, 255);
+            width: 230px;
+            height: 70px;
+            padding: 20px;
+        }
+        .left-one p{
+            width: 300px;
+            margin-top: 10px;
+            font-weight: 100;
+        }
+
+        .second_main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px;
+            padding: 20px;
+            width: 1100px;
+            margin: 0 auto;
+            margin-left: 260px;
+            margin-top: -650px;
+        }
+
+        .main2, .main3, .main4, .main5, .main6, 
+        .main7, .main8, .main9, .main10, .main11, .main12 {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .main1 {
+            grid-column: span 4;
+            display: flex;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .main1 img{
+            margin-top: -120px;
+        }
+        .main1-text p{
+            width: 350px;
+            font-size: 10px;
+            color: rgb(42, 145, 255);
+        }
+
+        .main1-text{
+            margin-left:30px;
+        }
+        .main1-text h5{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head-left">
+            <img src="edupage-menu.jpg" width="50px">
+            <p>Начало</p>
+        </div>
+        <div class="head-right">
+            <p>💬 <span class="para">1</span></p>
+            <p>✉️ <span class="para">2</span></p>
+            <p>❔ Помощь</p>
+        </div>
+    </header>
+    <div class="main">
+        <div class="pre-main">
+                <div class="pre-main_left">
+                <p>⭐️Введение</p>
+            </div>
+            <div class="pre-main_right">
+                <p>📅 Расписание на завтра</p>
+                <div class="pre-main_schedule">
+                    <div class="pre-main_schedule1">
+                        <p>1</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>2</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>3</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>4</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>5</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>6</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>7</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>8</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+
+                    <div class="pre-main_schedule1">
+                        <p>9</p>
+                        <h1>KM3</h1>
+                        <h3>2F-4</h3>
+                        <p>8:45 - 9:30</p>
+                    </div>
+                </div>
+                <p class="hw">🕙 Не забудьте про домашнюю работу! Звонок через:</p>
+            </div>
+        </div>
+        
+        <div class="main-left">
+
+            <div class="left-one">
+                <img src="edupage-message.png" width="40px">
+                <p>Уведомление</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-web-page.webp" width="40px">
+                <p>Веб страница</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-class-journal.png" width="30px">
+                <p>Классный журнал</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-grades.png" width="30px">
+                <p>Оценки</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-schedule.png" width="30px">
+                <p>Учебный план</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-results.png" width="30px">
+                <p>Результаты</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-education.png" width="30px">
+                <p>Обучение</p>
+            </div>
+
+            <div class="left-one">
+                <img src="edupage-connect.png" width="30px">
+                <p>Связь</p>
+            </div>
+        </div>
+        <div class="second_main">
+            <div class="main1">
+                <img src="edupage-messages.webp" width="50px">
+                <span class="main1-text">
+                    <h5>Сообщения</h5>
+                    <p>Оценка: КМ 1.ОН 1.4. Іскерлік максатта екінші шетел тілін колдану - 95</p>
+                    <p>Оценка: КМ 1.ОН 1.4. Іскерлік максатта екінші шетел тілін колдану - 95</p>
+                    <p>Оценка: КМ 1.ОН 1.4. Іскерлік максатта екінші шетел тілін колдану - 91</p>
+                    <p>Новое расписание было опубликовано</p>
+                    <p>Отсутствие, Вторник 18.03., Уроки: 1., 9., 11., 2., 5., 6., 7., 8.</p>
+                </span>
+            </div>
+            <div class="main2">
+                <img src="edupage-education.png" width="40px">
+                <p>Учебный план
+                </p>
+            </div>
+
+            <div class="main3">
+                <img src="edupage-schedule.png" width="40px">
+                <p>Расписаниe</p>
+            </div>
+
+            <div class="main4">
+                <img src="edupage-registration.png" width="40px">
+                <p>Регистрация / Опросы</p>
+            </div>
+
+            <div class="main5">
+                <img src="edupage-time.png" width="40px">
+                <p>Работы / экзамены</p>
+            </div>
+
+            <div class="main6">
+                <img src="edupage-zamena.png" width="40px">
+                <p>Замены</p>
+            </div>
+
+            <div class="main7">
+                <img src="edupage-canteen.png" width="40px">
+                <p>Столовая</p>
+            </div>
+
+            <div class="main8">
+                <img src="edupage-class-journal.png" width="40px">
+                <p>Классный журнал</p>
+            </div>
+
+            <div class="main9">
+                <img src="edupage-grades.png" width="40px">
+                <p>Оценки</p>
+            </div>
+
+            <div class="main10">
+                <img src="edupage-results.png" width="40px">
+                <p>Результаты</p>
+            </div>
+
+            <div class="main11">
+                <img src="edupage-attendens.webp" width="40px">
+                <p>Моя посещаемость</p> 
+            </div>
+
+            <div class="main12">
+                <img src="edupage-payment.png" width="40px">
+                <p>Платежи</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
